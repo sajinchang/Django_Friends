@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.idea
+medias/
+db.sqlite3
+migrations/
+.qiniu_pythonsdk_hostscache.json
+./logs/*.log
+
