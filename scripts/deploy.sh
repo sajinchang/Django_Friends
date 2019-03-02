@@ -122,7 +122,7 @@ install_python() {
 # 项目环境初始化
 project_init() {
     echo '正在设置项目环境...'
-    proj='/opt/Django_TanTan/'
+    proj='/opt/Django_Friends/'
     mkdir -p $proj/{data,logs}
 
     echo '正在创建 python 运行环境...'

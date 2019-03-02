@@ -13,9 +13,9 @@ from celery import Celery
 from worker import config
 
 # 设置默认django环境
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Django_TanTan.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Django_Friends.settings')
 
-celery_app = Celery('Django_TanTan')
+celery_app = Celery('Django_Friends')
 celery_app.config_from_object(config)
 celery_app.autodiscover_tasks()
 

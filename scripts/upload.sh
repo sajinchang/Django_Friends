@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOCAL_DIR='./'
-REMOTE_DIR='/opt/Django_TanTan'
+REMOTE_DIR='/opt/Django_Friends'
 
 USER='root'
 HOST='samsa.xin'

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_DIR='/opt/Django_TanTan'
+PROJECT_DIR='/opt/Django_Friends'
 PIDFILE="$PROJECT_DIR/logs/gunicorn.pid"
 
 # 简单粗暴，但是有效

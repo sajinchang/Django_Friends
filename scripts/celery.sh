@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_DIR='/opt/Django_TanTan'
+PROJECT_DIR='/opt/Django_Friends'
 LOGFILE="$PROJECT_DIR/logs/celery.log"
 
 cd $PROJECT_DIR
